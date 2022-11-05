@@ -12,7 +12,7 @@
 body {
   background-color: #565656;
 }
-	img {
+	.idk {
 		moz-user-select: none;
 		-webkit-user-selet: none;
 		user-select: none;
@@ -80,11 +80,6 @@ body {
 		height: 20vh;
 		background-color: #383838
 	}
-	.images{
-		-moz-user-select: none;
-		-webkit-user-select: none;
-		user-select: none;
-	}
 	a.button1{
 		display: inline-block;
 		padding: 0.35em 1.2em;
@@ -98,6 +93,9 @@ body {
 		color:#FFFFFF;
 		text-align:center;
 		transition: all 0.2s;
+		position: relative;
+		top: 2vw;
+		left: -24vw;
 	}
 	a.button1:hover{
 		color:#000000;
@@ -120,6 +118,8 @@ body {
 <div class="TempestText">
 	<h1 class="animate__animated animate__fadeInUp">Hi, I am</h1>
 	<img class="animate__animated animate__fadeInUp animate__delay-1s" src="images/tempest-text.svg" alt="Tempest Text">
+	<a href="#" class="button1 animate__animated animate__fadeInUp animate__delay-2s">Discord</a>
+	<a href="#" class="button1 animate__animated animate__fadeInUp animate__delay-2s">Top.gg</a>
 </div>
 <img src="images/tempest-logo.png" alt="Tempest Logo" id="TempestLogo">
 <div class="footer">
