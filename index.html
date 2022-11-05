@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.typekit.net/iva7qsr.css">
+	<link
+		rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
+	</head>
+<!-- CSS -->
+<style>
+body {
+  background-color: #565656;
+}
+	img {
+		moz-user-select: none;
+		-webkit-user-selet: none;
+		user-select: none;
+		pointer-events: none;
+	}
+.shadow {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  box-shadow: inset 0px 0px 200px #3c3c3c;
+}
+#TempestTitle{
+  padding: 0px;
+  position: absolute;
+  top: 45vh;
+  left: 15vw;
+  width: 25vw;
+  height: auto;
+}
+#TempestSubtext{
+  color: white;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 0px;
+  position: absolute;
+  top: 39vh;
+  left: 15vw;
+  font-size: 3vw;
+  height: auto;
+}
+	.TempestText{
+		position: absolute;
+		top: 40vh;
+		left: 5vw;
+		transform: translate(-0%, -50%);
+	}
+	.TempestText h1{
+		color: white;
+		font-family: proxima-nova, sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		font-size: 2.5vw;
+		position: relative;
+		top: 2.5vw;
+		left: 1%;
+	}
+	#TempestLogo{
+		position: absolute;
+		top: 45vh;
+		left: 55vw;
+		transform: translate(-0%, -50%);
+		width: 35vw;
+	}
+	.TempestText img{
+		width: 25vw;
+	}
+	.footer{
+		position: absolute;
+		top: 100vh;
+		left: 0;
+		width: 100vw;
+		height: 20vh;
+		background-color: #383838
+	}
+	.images{
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		user-select: none;
+	}
+	a.button1{
+		display: inline-block;
+		padding: 0.35em 1.2em;
+		border: 0.1em solid #FFFFFF;
+		margin:0 0.3em 0.3em 0;
+		border-radius:0.12em;
+		box-sizing: border-box;
+		text-decoration:none;
+		font-family:'Roboto',sans-serif;
+		font-weight:300;
+		color:#FFFFFF;
+		text-align:center;
+		transition: all 0.2s;
+	}
+	a.button1:hover{
+		color:#000000;
+		background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+	a.button1{
+		display:block;
+		margin:0.4em auto;
+	}
+} 
+</style>
+<!-- END CSS -->
+
+<!-- BODY -->
+<body>
+
+<a href="something" class="button1">Button</a>
+<div class="shadow"></div>
+<div class="TempestText">
+	<h1 class="animate__animated animate__fadeInUp">Hi, I am</h1>
+	<img class="animate__animated animate__fadeInUp animate__delay-1s" src="images/tempest-text.svg" alt="Tempest Text">
+</div>
+<img src="images/tempest-logo.png" alt="Tempest Logo" id="TempestLogo">
+<div class="footer">
+
+</div>
+
+</body>
+<!-- END BODY -->
+</html>
